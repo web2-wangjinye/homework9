@@ -1,0 +1,35 @@
+*{
+margin:0px;
+padding:0px;
+}
+/*.clearfix{
+*zoom:1;
+}
+.clearfix:after{
+display:table;
+content:"";
+clear:both;
+}*/
+.box{
+position:relative;
+left:15px;
+top:10px;
+width:430px;
+height:130px;
+}
+ul li{
+display:inline-block;
+list-style:none;
+line-height:22px;
+height:22px;
+width:22px;
+text-align:center;
+border:1px solid black;
+box-sizing:border-box;
+background:white;
+}
+.box_bottom{
+position:absolute;
+bottom:4px;
+right:14px;
+}
